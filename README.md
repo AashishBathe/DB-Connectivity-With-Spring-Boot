@@ -6,7 +6,7 @@ This repository aims to provide pre-configured setups for connecting Spring Boot
 ## 📚 Supported Databases
 Here’s a list of the databases I plan to include in this repository:
 - MySQL ✅
-- PostgreSQL
+- PostgreSQL ✅
 - MongoDB
 - Redis
 - Neo4j 
