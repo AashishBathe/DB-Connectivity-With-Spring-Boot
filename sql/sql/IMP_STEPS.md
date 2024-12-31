@@ -17,24 +17,9 @@ FLUSH PRIVILEGES;
 ## pom.xml Additions
 In dependencies -
 <dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok</artifactId>
-    <optional>true</optional>
+<groupId>com.mysql</groupId>
+<artifactId>mysql-connector-j</artifactId>
 </dependency>
-
-In plugins -
-<plugin>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-maven-plugin</artifactId>
-    <configuration>
-        <excludes>
-            <exclude>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-            </exclude>
-        </excludes>
-    </configuration>
-</plugin>
 
 ---
 
