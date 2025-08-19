@@ -42,6 +42,5 @@ Primary Key must be Id. Can be GeneratedValue for automatic value generation.
 ---
 
 ## Important Tips
-- The table must be made before itself, it cannot be made by Spring.
 - Can use pgAdmin4 for connecting to database and making table.
 - User cannot be the name of table, Postgresql has user as keyword, so use non keyword names for tables.
